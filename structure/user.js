@@ -46,8 +46,8 @@ express.get("/account/api/public/account/:accountId", async (req, res) => {
     res.json({
         "id": req.params.accountId,
         "displayName": Memory_CurrentAccountID,
-        "name": "Lawin",
-        "email": Memory_CurrentAccountID + "@lawin.com",
+        "name": "ReviveFN",
+        "email": Memory_CurrentAccountID + "@revivefn.com",
         "failedLoginAttempts": 0,
         "lastLogin": new Date().toISOString(),
         "numberOfDisplayNameChanges": 0,
